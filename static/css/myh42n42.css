@@ -1,0 +1,39 @@
+* {
+    font-family: sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+.container
+{
+	background-color: grey;
+	display: flex;
+	width: 500px;
+	height: 500px;
+	flex-direction: column;
+}
+
+.river
+{
+	background-color: blue;
+}
+
+.hospital
+{
+	background-color: green;
+	background-image: url('./hospital.jpg');
+	background-size: 100% 100%;
+}
+
+.monster
+{
+	position: absolute;
+	border-radius: 100%;
+	z-index: 100;
+}
+
+.creetcounter {
+	top : 500px;
+	position: absolute;
+}
+

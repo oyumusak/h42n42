@@ -1,0 +1,5 @@
+_server/myh42n42.cmo : _server/init.cmo
+_server/myh42n42.cmx : _server/init.cmx
+_server/myh42n42.type_mli : _server/init.cmo
+_server/myh42n42.cmo : _server/myh42n42.type_mli
+_server/myh42n42.cmx : _server/myh42n42.type_mli

@@ -1,0 +1,4 @@
+_client/myh42n42.cmo : _client/init.cmo
+_client/myh42n42.cmx : _client/init.cmx
+_client/myh42n42.cmo : _server/myh42n42.type_mli
+_client/myh42n42.cmx : _server/myh42n42.type_mli

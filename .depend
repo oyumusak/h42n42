@@ -1,0 +1,17 @@
+_server/init.cmo :
+_server/init.cmx :
+_server/init.cmo : _server/init.type_mli
+_server/init.cmx : _server/init.type_mli
+_server/myh42n42.cmo : _server/init.cmo
+_server/myh42n42.cmx : _server/init.cmx
+_server/myh42n42.type_mli : _server/init.cmo
+_server/myh42n42.cmo : _server/myh42n42.type_mli
+_server/myh42n42.cmx : _server/myh42n42.type_mli
+_client/init.cmo :
+_client/init.cmx :
+_client/init.cmo : _server/init.type_mli
+_client/init.cmx : _server/init.type_mli
+_client/myh42n42.cmo : _client/init.cmo
+_client/myh42n42.cmx : _client/init.cmx
+_client/myh42n42.cmo : _server/myh42n42.type_mli
+_client/myh42n42.cmx : _server/myh42n42.type_mli
